@@ -8,7 +8,6 @@ let friends = {
     "peterjones@gamil.com":{"firstName": "Peter","lastName": "Jones","DOB":"21-03-1989"}
 };
 
-
 // GET request: Retrieve all friends
 router.get("/", (req, res) => {
     res.send("Yet to be implemented");
