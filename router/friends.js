@@ -10,38 +10,28 @@ let friends = {
 
 
 // GET request: Retrieve all friends
-router.get("/",(req,res)=>{
-
-  // Update the code here
-
-  res.send("Yet to be implemented")//This line is to be replaced with actual return value
+router.get("/", (req, res) => {
+    res.send("Yet to be implemented");
 });
 
 // GET by specific ID request: Retrieve a single friend with email ID
-router.get("/:email",(req,res)=>{
-  // Update the code here
-  res.send("Yet to be implemented")//This line is to be replaced with actual return value
+router.get("/:email",(req, res) => {
+    res.send("Yet to be implemented");
 });
-
 
 // POST request: Add a new friend
-router.post("/",(req,res)=>{
-  // Update the code here
-  res.send("Yet to be implemented")//This line is to be replaced with actual return value
+router.post("/", (req, res) => {
+    res.send("Yet to be implemented");
 });
-
 
 // PUT request: Update the details of a friend with email id
 router.put("/:email", (req, res) => {
-  // Update the code here
-  res.send("Yet to be implemented")//This line is to be replaced with actual return value
+  res.send("Yet to be implemented");
 });
-
 
 // DELETE request: Delete a friend by email id
 router.delete("/:email", (req, res) => {
-  // Update the code here
-  res.send("Yet to be implemented")//This line is to be replaced with actual return value
+  res.send("Yet to be implemented")
 });
 
-module.exports=router;
+module.exports = router;
